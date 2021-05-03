@@ -1,0 +1,146 @@
+body {
+  font-family: 'Playfair Display', serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 1440px;
+  height: 100vh; }
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: #c16c6c;
+  -webkit-box-shadow: -20px -20px 60px #a45c5c, 20px 20px 60px #de7c7c;
+  box-shadow: -20px -20px 60px #a45c5c, 20px 20px 60px #de7c7c;
+  text-align: center;
+  -webkit-animation: animate1 1s forwards .2s ease-in-out;
+  animation: animate1 1s forwards .2s ease-in-out; }
+
+body .container h1 {
+  letter-spacing: 1px;
+  padding: 20px 0; }
+
+body .container .center-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+body .container .center-image img {
+  margin-bottom: 30px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  -webkit-transform: translateY(-400%);
+  transform: translateY(-400%);
+  -webkit-animation-name: liz-moving;
+  animation-name: liz-moving;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: .5s;
+  animation-iteration-count: .5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out; }
+
+@-webkit-keyframes liz-moving {
+  from {
+    -webkit-box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff, -20px -20px 60px #bebebe, 20px 20px 60px #ffffff;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff, -20px -20px 60px #bebebe, 20px 20px 60px #ffffff; }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-box-shadow: 1px 1px 5px #bebebe, -1px -1px 5px #ffffff, -1px -1px 5px #bebebe, 1px 1px 5px #ffffff;
+    box-shadow: 1px 1px 5px #bebebe, -1px -1px 5px #ffffff, -1px -1px 5px #bebebe, 1px 1px 5px #ffffff; } }
+
+@keyframes liz-moving {
+  from {
+    -webkit-box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff, -20px -20px 60px #bebebe, 20px 20px 60px #ffffff;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff, -20px -20px 60px #bebebe, 20px 20px 60px #ffffff; }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-box-shadow: 1px 1px 5px #bebebe, -1px -1px 5px #ffffff, -1px -1px 5px #bebebe, 1px 1px 5px #ffffff;
+    box-shadow: 1px 1px 5px #bebebe, -1px -1px 5px #ffffff, -1px -1px 5px #bebebe, 1px 1px 5px #ffffff; } }
+
+body .container .center-image button {
+  padding: 3px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: .5rem;
+  border: none;
+  background-color: aqua; }
+
+body .container .center-image button:hover {
+  cursor: pointer; }
+
+@-webkit-keyframes animate1 {
+  to {
+    background: #6cc1a5;
+    -webkit-box-shadow: -20px -20px 60px #5ca48c, 20px 20px 60px #7cdebe;
+    box-shadow: -20px -20px 60px #5ca48c, 20px 20px 60px #7cdebe; } }
+
+@keyframes animate1 {
+  to {
+    background: #6cc1a5;
+    -webkit-box-shadow: -20px -20px 60px #5ca48c, 20px 20px 60px #7cdebe;
+    box-shadow: -20px -20px 60px #5ca48c, 20px 20px 60px #7cdebe; } }
+
+body .container h2 {
+  letter-spacing: .5px;
+  padding: 20px 0; }
+
+body .wrapper {
+  display: none;
+  background-image: url(/images/liz&jake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
+  color: #6fec5f; }
+
+body .wrapper h1 {
+  background: red;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  border-radius: 50px;
+  padding: 5px 20px;
+  opacity: .6; }
+
+/*# sourceMappingURL=main.css.map */
